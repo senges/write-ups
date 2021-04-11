@@ -4,6 +4,7 @@
 Le but de ce challenge est d'obtenir un shell sur la machine en tant qu'utilisateur Mel.
 
 **Catégorie :** Réaliste  
+**Auteur :** Worty 
 **Points :** 400
 
 ## Résolution

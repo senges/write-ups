@@ -5,7 +5,8 @@ Il faut maintenant élever ses privilèges jusqu'à root.
 
 Ce challenge a été mon coup de coeur du Midnight Flag 2021 ! :) 
 
-**Catégorie :** Réaliste  
+**Catégorie :** Réaliste
+**Auteur :** Worty  
 **Points :** 350
 
 ## Résolution
@@ -13,7 +14,7 @@ Ce challenge a été mon coup de coeur du Midnight Flag 2021 ! :)
 On profite d'avoir le pass de meltheboss pour s'ouvrir un petit SSH bien confort.  
 Premier reflex de reconaissance : `sudo -l`
 
-On découvre alors qu'on a les droits sudo pour un fichier (dont je n'ai plus le nom exact) `/usr/lib/execute.py`.  
+On découvre alors qu'on a les droits sudo pour un fichier `/usr/local/bin/gdb_fork.py`.  
 Quand on lance ce fichier, un prompt nous demande d'indiquer un fichier à exécuter.
 
 On pourrait imaginer qu'il s'agit donc d'un script qui ferait un eval() sur un autre fichier python.  
